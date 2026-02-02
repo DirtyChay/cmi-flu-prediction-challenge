@@ -7,12 +7,11 @@ https://www.kaggle.com/competitions/cmi-flu-internal-prediction-challenge/data
 To download the data:
 
 - Create a Kaggle account and API token.
-- Copy the API token to .env.example and rename it to .env.
 - Install the Kaggle CLI: `pip install kaggle`
-- Accept the competition rules and run these commands:
+- Accept the competition rules. Then run these commands:
 
-```
-source .env
+```shell
+export KAGGLE_API_TOKEN=[YOUR_API_TOKEN]
 kaggle competitions download -c cmi-flu-internal-prediction-challenge
 ```
 
